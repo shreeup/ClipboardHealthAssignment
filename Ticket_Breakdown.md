@@ -19,15 +19,14 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 Solution : 
 
-Modify Agent table in the database to include this customid column.
+1) Modify Agent table in the database to include this customid column.
     Prepare existing data - write some automated scripts to generate and store unique customid for existing agent records. 
 
-Develop interface to configure custom ids for each agent. It should allow to create custom id. Or if there is already interface to accept agent details then enhance it to allow giving cutomid
+2) Develop interface to configure custom ids for each agent. It should allow to create custom id. Or if there is already interface to accept agent details then enhance it to allow giving cutomid. 
 
-    It is assumed that customid should qualify certain criteria - Minimum 8 characters with at least 1 upper, 1 lower, 1 number, 1 alphabet, 1 special character. It is assumed to be unique within system.
-
+It is assumed that customid should qulify certain criteria - Minimum 8 characters with at least 1 uppers,1 lower, 1 number, 1 alphabet, 1 special character. It is assumed to be unique within system.
     Interface should take care of validation 
 
-Connect this interface with API to update Agent details
+3) Connect this interface with API to update Agent details
 
-Modify the reporting logic to fetch customid instead of id
+4) Modify the reporting logic to fetch customid instead of id
